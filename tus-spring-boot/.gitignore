@@ -1,0 +1,25 @@
+# Created by .ignore support plugin (hsz.mobi)
+.vscode/**
+.idea/**
+src/client/node/
+src/client/node_modules/
+.classpath
+.project
+.settings/
+npm-debug.log
+src/client/build/
+*.iml
+
+# recursively traverse the file tree from src/ and pattern match *.js
+src/client/src/**/*.js
+src/client/src/**/*.js.map
+
+# will be built by client-side compilation
+src/main/resources/public/
+
+# output of java compilation
+target/**/*
+
+# output of running app
+log.txt
+target/
